@@ -10,13 +10,6 @@
           <include name="afterClass"/>
         </methods>
       </class> <!-- ILAB.Automation_Test.ILAB_SpanishVersion -->
-      <class name="ILAB.Automation_Test.ILAB_EnglishVersion">
-        <methods>
-          <include name="open_Menu"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-        </methods>
-      </class> <!-- ILAB.Automation_Test.ILAB_EnglishVersion -->
       <class name="ILAB.Automation_Test.ILAB_FrenchVersion">
         <methods>
           <include name="open_Menu"/>

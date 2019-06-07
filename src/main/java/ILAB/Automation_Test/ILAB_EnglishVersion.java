@@ -23,8 +23,8 @@ public class ILAB_EnglishVersion {
 	//MENU
 	public void open_Menu() throws InterruptedException {
 		
-		 driver.get("http://localhost:3000/");
-		//driver.get("http://54.81.86.222:8085/");
+		 //driver.get("http://localhost:3000/");
+		driver.get("http://54.210.154.145:8085/");
 		driver.manage().window().maximize();
 		System.out.println("=============================================================");
 		System.out.println("Comply Chain Application for U.S Department of Labor");
@@ -283,13 +283,33 @@ public class ILAB_EnglishVersion {
 		Thread.sleep(2000);
 		driver.findElement(By.id("what-are-link")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("child-labor")).click();
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/button")).click();
+		// //*[@id=\"container\"]/div[1]/button
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]")).click();
+		driver.findElement(By.id("menu-btn")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("basics-link")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/button")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("breadcrumbs")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"home_step_2\"]/div[1]/div/div/span[2]/a")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/button")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("breadcrumbs")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"home_step_2\"]/div[1]/div/div/span[2]/a")).click();
+		driver.findElement(By.id("topics")).click();
+		driver.findElement(By.xpath("//*[@id=\"topics\"]/div[2]/ul/li[2]/a")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//*[@id=\"container\"]/div[1]/button")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("bookmarks-link")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
+		Thread.sleep(4000);
+		
+		//driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
 		/*driver.findElement(By.id("home_step_2")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("topics")).click();
@@ -300,15 +320,17 @@ public class ILAB_EnglishVersion {
 		driver.findElement(By.id("bookmarks-link")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("//*[@id=\"container\"]/div/ul/li[1]/ul/li[1]/button")).click();
-		Thread.sleep(2000);*/
+		Thread.sleep(2000);
 		driver.findElement(By.id("menu-btn")).click();
 		driver.findElement(By.id("what-are-link")).click();
+		driver.findElement(By.id("bookmarks-link")).click();
+		driver.findElement(By.id("menu-btn")).click();
 		driver.findElement(By.id("child-labor")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("bookmarks-link")).click();
-		Thread.sleep(2000);
+		Thread.sleep(2000);*/
 		System.out.println("Book Marking function is tested and verified to be functional");
-		driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
+		driver.findElement(By.id("breadcrumbs")).click();
 //SEARCH
 		driver.findElement(By.id("search-link")).click();
 		Thread.sleep(2000);
@@ -319,7 +341,7 @@ public class ILAB_EnglishVersion {
 		Thread.sleep(2000);*/
 		System.out.println("Search Button is tested(with search word high lighting in result) and verified to be functional");
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
+		driver.findElement(By.id("breadcrumbs")).click();
 		Thread.sleep(2000);
 //SHARE
 		driver.findElement(By.id("share-link")).click();
@@ -333,8 +355,7 @@ public class ILAB_EnglishVersion {
 		driver.findElement(By.xpath("//*[@id=\"share-link\"]/div[2]/div[3]")).click(); */
 		System.out.println("Share Button is tested (Pocket, email & Copy Link) and verified to be functional");
 		Thread.sleep(2000);
-		//driver.findElement(By.xpath("//*[@id=\"breadcrumbs\"]/span/a")).click();
-		//Thread.sleep(2000);
+		
 //ABOUT
 		driver.findElement(By.id("about-link")).click();
 		Thread.sleep(2000);
@@ -360,7 +381,6 @@ public class ILAB_EnglishVersion {
 		System.out.println("About Button is tested for all it pages and verified to be functional");
 		Thread.sleep(5000);
 	}
-
 	@AfterClass
 	public void afterClass() {
 		driver.quit();

@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="847271" started-at="2019-05-09T12:12:48Z" finished-at="2019-05-09T12:26:55Z">
+  <suite name="Suite" duration-ms="878373" started-at="2019-05-30T18:03:43Z" finished-at="2019-05-30T18:18:21Z">
     <groups>
     </groups>
-    <test name="ILAB.Automation_Test" duration-ms="847271" started-at="2019-05-09T12:12:48Z" finished-at="2019-05-09T12:26:55Z">
+    <test name="ILAB.Automation_Test" duration-ms="878373" started-at="2019-05-30T18:03:43Z" finished-at="2019-05-30T18:18:21Z">
       <class name="ILAB.Automation_Test.ILAB_SpanishVersion">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="beforeClass" is-config="true" duration-ms="2231" started-at="2019-05-09T12:17:31Z" finished-at="2019-05-09T12:17:33Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="beforeClass" is-config="true" duration-ms="2294" started-at="2019-05-30T18:08:36Z" finished-at="2019-05-30T18:08:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="open_Menu" duration-ms="278864" started-at="2019-05-09T12:17:33Z" finished-at="2019-05-09T12:22:12Z">
+        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="open_Menu" duration-ms="289714" started-at="2019-05-30T18:08:39Z" finished-at="2019-05-30T18:13:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Menu -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="afterClass" is-config="true" duration-ms="613" started-at="2019-05-09T12:22:12Z" finished-at="2019-05-09T12:22:12Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_SpanishVersion@13a57a3b]" name="afterClass" is-config="true" duration-ms="775" started-at="2019-05-30T18:13:28Z" finished-at="2019-05-30T18:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- ILAB.Automation_Test.ILAB_SpanishVersion -->
       <class name="ILAB.Automation_Test.ILAB_FrenchVersion">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="beforeClass" is-config="true" duration-ms="2273" started-at="2019-05-09T12:22:12Z" finished-at="2019-05-09T12:22:15Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="beforeClass" is-config="true" duration-ms="2310" started-at="2019-05-30T18:13:29Z" finished-at="2019-05-30T18:13:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="open_Menu" duration-ms="279706" started-at="2019-05-09T12:22:15Z" finished-at="2019-05-09T12:26:54Z">
+        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="open_Menu" duration-ms="289073" started-at="2019-05-30T18:13:31Z" finished-at="2019-05-30T18:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Menu -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="afterClass" is-config="true" duration-ms="651" started-at="2019-05-09T12:26:54Z" finished-at="2019-05-09T12:26:55Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_FrenchVersion@7ca48474]" name="afterClass" is-config="true" duration-ms="735" started-at="2019-05-30T18:18:21Z" finished-at="2019-05-30T18:18:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- ILAB.Automation_Test.ILAB_FrenchVersion -->
       <class name="ILAB.Automation_Test.ILAB_EnglishVersion">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="beforeClass" is-config="true" duration-ms="4121" started-at="2019-05-09T12:12:48Z" finished-at="2019-05-09T12:12:52Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="beforeClass" is-config="true" duration-ms="3028" started-at="2019-05-30T18:03:43Z" finished-at="2019-05-30T18:03:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="open_Menu" duration-ms="278162" started-at="2019-05-09T12:12:52Z" finished-at="2019-05-09T12:17:30Z">
+        <test-method status="PASS" signature="open_Menu()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="open_Menu" duration-ms="289654" started-at="2019-05-30T18:03:46Z" finished-at="2019-05-30T18:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Menu -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="afterClass" is-config="true" duration-ms="628" started-at="2019-05-09T12:17:30Z" finished-at="2019-05-09T12:17:31Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ILAB.Automation_Test.ILAB_EnglishVersion@69d9c55]" name="afterClass" is-config="true" duration-ms="766" started-at="2019-05-30T18:08:36Z" finished-at="2019-05-30T18:08:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
